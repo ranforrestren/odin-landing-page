@@ -1,14 +1,30 @@
-.page-container {
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+}
+
+.hero-container {
   display: flex;
   flex-direction: column;
-  align-items: safe center;
   width: 1200px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  flex: auto;
+  align-items: center;
+}
+
+.header-logo {
+  margin: 0px;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
 }
 
 .header-links {
@@ -18,6 +34,7 @@
 }
 
 .link-button {
-  color: #666;
+  font-size: 18px;
+  color: #e5e7eb;
   text-decoration: none;
 }

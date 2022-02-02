@@ -6,16 +6,40 @@ body {
   margin: 0px;
 }
 
-.hero {
+.width {
+  width: 1200px;
+}
+
+.center {
   display: flex;
   justify-content: center;
+}
+
+.vertspace {
+  padding: 100px 0px 100px 0px;
+}
+
+.dark {
   background: #1f2937;
+}
+
+.blue {
+  background: #3882f6;
+}
+
+.round {
+  border-radius: 10px;
+}
+
+.subtext {
+  margin: 0.5em 0em;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
-  width: 1200px;
   padding: 0px 20px;
 }
 
@@ -26,7 +50,7 @@ body {
   margin: 10px 0px;
 }
 
-.header-logo {
+.header-text {
   margin: 0px;
   color: #f9faf8;
   font-size: 24px;
@@ -45,10 +69,7 @@ body {
   text-decoration: none;
 }
 
-.hero-main {
-  display: flex;
-  justify-content: center;
-  margin: 100px 0px;
+.gap {
   gap: 40px;
 }
 
@@ -64,17 +85,10 @@ body {
   font-weight: 800;
 }
 
-.hero-subtext {
-  color: #e5e7eb;
-  font-size: 18px;
-}
-
 .button {
   display: inline-block;
   padding: 8px 30px;
-  border-radius: 10px;
   color: #f9faf8;
-  background: #3882f6;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
@@ -88,7 +102,6 @@ body {
 }
 
 .imgs-section {
-  margin: 100px 0px 200px 0px;
   text-align: center;
 }
 
@@ -107,4 +120,40 @@ body {
 
 .card {
   max-width: 200px;
+}
+
+.quote-section {
+  background: #e5e7eb;
+}
+
+.quote {
+  color: #1f2937;
+}
+
+.quote.main {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.quote.attribut {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+.call .button {
+  border: 3px solid #f9faf8;
+}
+
+.footer {
+  padding: 40px 0px;
+  text-align: center;
 }

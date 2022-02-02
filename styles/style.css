@@ -6,15 +6,6 @@ body {
   margin: 0px;
 }
 
-.flex {
-  display: flex;
-}
-
-.flex-item {
-  flex: auto;
-  width: 0;
-}
-
 .hero {
   display: flex;
   justify-content: center;
@@ -61,6 +52,11 @@ body {
   gap: 40px;
 }
 
+.hero-item {
+  flex: auto;
+  width: 0;
+}
+
 .hero-text {
   margin: 0px;
   color: #f9faf8;
@@ -74,6 +70,7 @@ body {
 }
 
 .button {
+  display: inline-block;
   padding: 8px 30px;
   border-radius: 10px;
   color: #f9faf8;
@@ -81,4 +78,9 @@ body {
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
 }

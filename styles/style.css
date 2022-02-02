@@ -2,29 +2,44 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  margin: 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-item {
+  flex: auto;
+  width: 0;
+}
+
 .hero {
   display: flex;
   justify-content: center;
-  background-color: #1f2937;
+  background: #1f2937;
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
   width: 1200px;
+  padding: 0px 20px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 10px 0px;
 }
 
 .header-logo {
   margin: 0px;
   color: #f9faf8;
-  font-size: 48px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .header-links {
@@ -36,5 +51,34 @@
 .link-button {
   font-size: 18px;
   color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero-main {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  gap: 40px;
+}
+
+.hero-text {
+  margin: 0px;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-subtext {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.button {
+  padding: 8px 30px;
+  border-radius: 10px;
+  color: #f9faf8;
+  background: #3882f6;
+  font-size: 18px;
+  font-weight: 700;
   text-decoration: none;
 }
